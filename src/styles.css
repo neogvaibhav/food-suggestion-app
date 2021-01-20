@@ -1,0 +1,94 @@
+App {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: large;
+  background-color: ivory;
+}
+
+#container {
+  width: 100vw;
+  min-height: 91vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+#mainHead {
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.info {
+  margin: 2rem 0px;
+}
+
+#btnContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: black;
+  color: white;
+}
+
+#outputContainer {
+  margin: 10px 0px;
+}
+
+.foodItem {
+  font-size: medium;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+#heartIcon {
+  width: 20px;
+  height: 20px;
+}
+
+#iconAttribution {
+  color: blue;
+  margin: 5px 0px;
+}
+
+#socialFooter {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  width: 100vw;
+  padding: 8px;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+  margin: 0px 1px;
+  border-radius: 5px;
+}
+
+.icons:hover {
+  box-shadow: 1px 1px 1px 1px rgb(104, 104, 104);
+}
